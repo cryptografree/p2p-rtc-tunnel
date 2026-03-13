@@ -85,6 +85,48 @@ p2p-rtc-tunnel/
 └── requirements.txt
 ```
 
+## Quick start (localhost)
+
+* Terminal 1:
+
+Signaling (STUN/TURN). Should be visible in Internet:
+
+```bash
+$ python main.py signaling --host 0.0.0.0 --port 9000
+```
+
+* Terminal 2:
+
+Answering peer:
+
+```bash
+$ python main.py peer --role answer --secret <put here your secret> --proxy-port 8081
+```
+
+* Terminal 3:
+
+Offering peer:
+
+```bash
+$ python main.py peer --role offer --secret <put here your secret> --proxy-port 8080
+```
+
+* Terminal 4:
+
+Quick test with curl:
+
+```bash
+$ curl -x http://localhost:8080 https://rootedcon.com
+```
+
+Four terminals with Tilix in the moment we send the request:
+
+![img.png](img.png)
+
+And the result and audit trails you can see:
+
+![img_1.png](img_1.png)
+
 ## Usage
 
 ### 1. Start signaling server (on a public host): this should be running before the others (*clients*).
