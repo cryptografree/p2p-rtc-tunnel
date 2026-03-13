@@ -168,6 +168,14 @@ brotli>=1.1
 lz4>=4.3
 ```
 
+## Pryor art
+
+There are several projects in this league. For example:
+
+https://sourceforge.net/projects/steganrtp/
+
+The idea is not new, but the difference here is it could be enhanced.
+
 ## TODO and future work
 
 - Create standalone binaries for "aunt Mary": these projects must be focused in citizens, not in hackers.
