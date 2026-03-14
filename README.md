@@ -1,12 +1,12 @@
 # P2P RTC Tunnel Proxy
 
 > [!CAUTION]
-> **⚠️ DANGER:** this tool is intentionally weak. Do not use it in the real world for anything than can take bring to you. ***PLEASE, DO TAKE CARE WITH THIS TOOL***.
+> **⚠️ DANGER:** this tool is intentionally weak. Do not use it in the real world for anything than can bring risk to you. ***PLEASE, DO TAKE CARE WITH THIS TOOL***.
 ```diff
-- DANGER: this tool is intentionally weak. Do not use it in the real world for anything than can take risk to you. PLEASE, DO TAKE CARE WITH THIS TOOL.
+- DANGER: this tool is intentionally weak. Do not use it in the real world for anything than can bring risk to you. PLEASE, DO TAKE CARE WITH THIS TOOL.
 ```
 <div style="padding: 15px; border: 1px solid red; border-radius: 4px; color: #721c24; background-color: #f8d7da;">
-    <b>&#9888; DANGER:</b> this tool is intentionally weak. Do not use it in the real world for anything than can take risk to you. <em>PLEASE, DO TAKE CARE WITH THIS TOOL</em>.
+    <b>&#9888; DANGER:</b> this tool is intentionally weak. Do not use it in the real world for anything than can bring risk to you. <em>PLEASE, DO TAKE CARE WITH THIS TOOL</em>.
 </div><br>
 
 ## What
